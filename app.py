@@ -20,9 +20,9 @@ def generate_dataset():
     email = data.get('email')
     # Add additional fields for gender, id_proof, etc. (even if they are empty)
     gender = data.get('gender', '')  # Default to empty string if not provided
-    id_proof = data.get('id_proof', '')  # Default to empty string if not provided
+    id_proof = data.get('idProof', '')  # Default to empty string if not provided
     description = data.get('description', '')  # Default to empty string if not provided
-    mobile_number = data.get('mobile_number', '')
+    mobile_number = data.get('mobileNumber', '')
     if not name or not age or not email:
         return jsonify({'status': 'error', 'message': 'Incomplete user details'}), 400
 
@@ -146,7 +146,7 @@ def detect():
             id, pred = clf.predict(gray[y:y+h, x:x+w])
             confidence = int(100 * (1 - pred / 300))
 
-            if confidence > 70 and id == target_id:
+            if confidence > 75 and id == target_id:
                 found = True
 
                 # Consume result properly
