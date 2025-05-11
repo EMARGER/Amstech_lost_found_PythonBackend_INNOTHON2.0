@@ -73,6 +73,8 @@ This project is open-source and available under the MIT License.
 
 💬 Contact
 For queries or feedback, feel free to reach out at:
-📧  goutamdogyan123@gmail.com
+📧  goutamdogayan143@gmail.com
 
 📧  atulpatel6357@gmail.com
+
+📧 📧 krishnakumarprajapati2003@gmail.com
